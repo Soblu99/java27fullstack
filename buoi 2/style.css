@@ -1,0 +1,19 @@
+* {
+  text-align: center;
+}
+h3 {
+  text-decoration: underline;
+}
+h1 {
+  text-shadow: 0 0 3px #ff0000;
+}
+.one {
+  border-style: solid;
+  border-color: red;
+}
+a {
+  color: hotpink;
+}
+ul.one {
+  list-style-type: circle;
+}
