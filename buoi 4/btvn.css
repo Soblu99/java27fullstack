@@ -26,6 +26,7 @@
   line-height: 30.09px;
   text-align: left;
   margin-bottom: 7px;
+  font-family: "Inter", sans-serif;
 }
 .rating {
   font-size: 17px;
@@ -33,6 +34,7 @@
   line-height: 25.5px;
   letter-spacing: 0.425px;
   margin-bottom: 7px;
+  font-family: "Inter", sans-serif;
 }
 .price {
   display: inline;
@@ -41,6 +43,7 @@
   font-size: 15.3px;
   letter-spacing: 0.425px;
   line-height: 22.95px;
+  font-family: "Inter", sans-serif;
 }
 .article-list {
   display: flex;
@@ -85,4 +88,8 @@
   letter-spacing: 0.425px;
   line-height: 27.2px;
   text-align: center;
+}
+.sale {
+  font-family: "Inter", sans-serif;
+  font-size: 13.5px;
 }
