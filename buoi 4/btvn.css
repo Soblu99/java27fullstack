@@ -41,7 +41,6 @@
   font-size: 15.3px;
   letter-spacing: 0.425px;
   line-height: 22.95px;
-  align-items: left;
 }
 .article-list {
   display: flex;
@@ -79,9 +78,11 @@
   width: 283px;
   height: 103px;
 }
-.sale {
-  align-items: left;
-}
+
 .link {
-  text-align: right;
+  color: #1c1d1d;
+  font-size: 17px;
+  letter-spacing: 0.425px;
+  line-height: 27.2px;
+  text-align: center;
 }
