@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  text-align: center;
+  word-spacing: 0px;
+  color: #1c1d1d;
+  margin-bottom: 44px;
+  display: block;
+}
+.article__thumbnail {
+  width: 285px;
+  height: 285px;
+  text-align: left;
+  display: block;
+}
+.article__title {
+  font-size: 20.06px;
+  color: #1c1d1d;
+  letter-spacing: 0.425px;
+  line-height: 30.09px;
+  text-align: left;
+  margin-bottom: 7px;
+}
+.rating {
+  font-size: 17px;
+  text-align: left;
+  line-height: 25.5px;
+  letter-spacing: 0.425px;
+  margin-bottom: 7px;
+}
+.price {
+  display: inline;
+  text-decoration: line-through;
+  color: #1c1d1d;
+  font-size: 15.3px;
+  letter-spacing: 0.425px;
+  line-height: 22.95px;
+  align-items: left;
+}
+.article-list {
+  display: flex;
+  width: 1250px;
+  height: 480px;
+  font-size: 17px;
+  letter-spacing: 0.425px;
+  line-height: 27.2px;
+
+  margin: 37px 0px 105px 105px;
+}
+.article1 {
+  width: 313px;
+  height: 450px;
+}
+.article2 {
+  width: 313px;
+  height: 450px;
+}
+.article3 {
+  width: 313px;
+  height: 450px;
+}
+.article4 {
+  width: 313px;
+  height: 450px;
+}
+.New {
+  text-align: center;
+  display: block;
+  width: 1513px;
+  height: 574px;
+}
+.article__meta {
+  width: 283px;
+  height: 103px;
+}
+.sale {
+  align-items: left;
+}
+.link {
+  text-align: right;
+}
