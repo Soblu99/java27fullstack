@@ -27,7 +27,7 @@ public class bai2 {
         float delta = b1 * b1 - 4 * (a1 * c1);
         if (delta>0) {
             System.out.println("Phương trình có 2 nghiệm phân biệt là x1 = " + ((-b1) + Math.sqrt(delta))/(a1*2));
-            System.out.println("Phương trình có 2 nghiệm phân biệt là x2 = " + ((-b1) - Math.sqrt(delta))/(a1*2));
+            System.out.println(" x2 = " + ((-b1) - Math.sqrt(delta))/(a1*2));
         }
         if (delta == 0) {
             System.out.println("Phương trình có 1 nghiệm kép là x = " + (-b1)/(a1*2) );
