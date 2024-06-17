@@ -1,0 +1,42 @@
+.box {
+  padding: 20px;
+}
+.box--1 {
+  background-color: rgb(141, 161, 164);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+.box--2 {
+  background-color: green;
+  /*  Nó vẫn hiển thị trong luồng thông thường  */
+  /*  Căn theo vị trí gốc  */
+  /*  Dùng để tạo container cho nội dung có position có absolute */
+  position: relative;
+}
+.box--3 {
+  background-color: gray;
+  /* nó k còn hiển thị trong luồng thông thường nữa  */
+  /* căn theo phần tử cha gần nhất ( phần tử chứa nó) có position là fixed hoặc là relative hoặc absolute */
+  /* Nếu k có thì căn theo body (khung của trình duyệt) */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.box--4 {
+  background-color: red;
+}
+.box--5 {
+  background-color: blue;
+}
+
+/*  Mặc định thì mọi nội dung đều có position là static */
+/*  Các giá trị position khác nhau điều khác biệt lớn nhất là container mà nó căn theo */
+.parent {
+  position: relative;
+  background-color: #0c0c0c;
+  height: 400px;
+}
