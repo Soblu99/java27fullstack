@@ -8,7 +8,7 @@ public class bai1 {
         if (a == 0){
             System.out.println(" nhập b: ");
             int b = new Scanner(System.in).nextInt();
-            String s = (a == b)?"nghiệm đúng với mọi x":"x vô nghiệm";
+            String s = (0 == b)?"nghiệm đúng với mọi x":"không có nghiệm x tồn tại";
             System.out.println(s);
             return;
         }
